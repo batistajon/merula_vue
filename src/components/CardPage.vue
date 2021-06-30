@@ -17,20 +17,30 @@
 </template>
 
 <script>
-	import { mdbCard, mdbCardImage, mdbCardBody, mdbCardTitle, mdbCardText, mdbBtn, mdbView, mdbMask } from 'mdbvue';
-	export default {
-		name: 'CardPage',
-		components: {
-			mdbCard,
-			mdbCardImage,
-			mdbCardBody,
-			mdbCardTitle,
-			mdbCardText,
-			mdbBtn,
-			mdbView,
-			mdbMask
-		}
+import { 
+	mdbCard, 
+	mdbCardImage, 
+	mdbCardBody, 
+	mdbCardTitle, 
+	mdbCardText, 
+	mdbBtn, 
+	mdbView, 
+	mdbMask 
+} from 'mdbvue';
+
+export default {
+	name: 'CardPage',
+	components: {
+		mdbCard,
+		mdbCardImage,
+		mdbCardBody,
+		mdbCardTitle,
+		mdbCardText,
+		mdbBtn,
+		mdbView,
+		mdbMask
 	}
+}
 </script>
 
 <style>
